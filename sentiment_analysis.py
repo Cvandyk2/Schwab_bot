@@ -7,6 +7,9 @@ set_identity("Name and Email")
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from datetime import datetime
 
+# === Tip Jar ===
+"https://www.paypal.com/paypalme/chancevandyke"
+
 # Initialize spacy and Vader once globally
 nlp = spacy.load("en_core_web_sm")
 vader = SentimentIntensityAnalyzer()
