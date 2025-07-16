@@ -9,6 +9,9 @@ from zoneinfo import ZoneInfo
 import schedule 
 import tzlocal  
 
+# === Tip Jar ===
+"https://www.paypal.com/paypalme/chancevandyke"
+
 # === Timezone setup ===
 try:
     # Attempt to auto-detect the system timezone
